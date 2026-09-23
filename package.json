@@ -1,0 +1,9 @@
+{
+  "name": "sky-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sky Ingeniería — Gestión administrativa, marketing y contable",
+  "engines": {
+    "node": ">=18"
+  }
+}
