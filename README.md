@@ -5,8 +5,9 @@ Gestión administrativa, marketing y contable de Sky Ingeniería. Deploy en Verc
 ## Módulos
 
 - **Link shortener** (`/api/s/[slug].js`): redirige `/s/:slug` al link largo guardado en la tabla `links` de Supabase y cuenta clicks. Pensado para acortar links con UTM para Instagram/campañas.
-  - `/s/calculadora_losa` → calculadora de losas
+  - `/s/calculadora_losas` → calculadora de losas
   - `/s/acopio` → calculadora hierro por m²
+  - `/s/losas` y `/s/hierro` → aliases de los slugs viejos (links ya publicados)
 
 ## Variables de entorno (Vercel)
 
